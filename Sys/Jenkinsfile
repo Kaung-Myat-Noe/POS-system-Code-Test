@@ -1,0 +1,257 @@
+import groovy.json.JsonOutput 
+pipeline {    
+    agent  {
+		label 'windows_slave'
+    } 
+    options{
+        buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '10', numToKeepStr: '20'))
+        timestamps()
+        timeout time:30, unit:'MINUTES'
+    }    
+    environment {        
+        zone="dc"
+        SEEKER_PROJECT_KEY="default"
+        // if got time need to change variable!.
+        dc_uat_ip_13='10.11.98.13'
+        dc_uat_ip_14='10.11.98.14'
+        dr_uat_ip_13='10.11.226.13'
+        dr_uat_ip_14='10.11.226.14'
+ 
+	    dc_pro_ip_13='10.11.42.13'
+        dc_pro_ip_12='10.11.42.12'
+        dr_pro_ip_13='10.11.170.13'
+        dr_pro_ip_14='10.11.170.14'
+		
+    } 
+    stages { 
+        
+        stage('Build') {
+            steps {                
+                //if dir exist and files
+                echo 'Building the application...'
+ 
+                 script {                        
+                        if(env.BRANCH_NAME == 'release/uat')
+                        {
+                            
+                            bat "${tool 'MSBuild17'} TelcoSMSApi.sln /t:TelcoSMSApi_Micro /t:clean /t:build /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=jenkins_uat_public /p:VisualStudioVersion=15.0"
+                        }						               
+                }
+            }
+        }
+
+        stage('Test')
+        {
+            steps {
+                echo "Testing Stage"
+
+            }
+        }
+		
+		stage('Deploy Sys_DR_13')
+        {
+            steps {
+
+                script {
+                    if(env.BRANCH_NAME == 'release/uat')
+                    {
+                        try
+                        {
+
+                          echo 'Deploying the application.... 10.11.226.13'
+						  
+						  //routeJson('dr')
+
+                          withCredentials([usernamePassword(credentialsId: 'CardApi', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) 
+                          {
+                                                                                                                                                                                        
+                                bat ' echo y | \"C:\\Program Files\\PuTTY\\plink.exe\" -batch -ssh '+ USERNAME +'@10.11.226.13 -pw '+ PASSWORD +' C:\\Users\\hein.htet\\Documents\\jenkin\\cmd.bat v1 \"C:\\inetpub\\sms1536\\v1\\*" sms1536'
+
+                                bat 'echo y | \"C:\\Program Files\\PuTTY\\pscp.exe\" -r -P 22 -pw '+PASSWORD+' TelcoSMSApi.Micro.Publish\\* '+USERNAME+'@10.11.226.13:\\inetpub\\sms1536\\v1'
+                          }
+
+
+                        }catch(Exception e)
+                        {   
+                            throw e;
+                        }
+                    }
+
+                }
+            }
+
+        }
+		
+		stage('Deploy Sys_DR_14')
+        {
+            steps {
+
+                script {
+                    if(env.BRANCH_NAME == 'release/uat')
+                    {
+                        try
+                        {
+
+                          echo 'Deploying the application.... 10.11.226.14'
+						  
+						  //routeJson('dr')
+
+                          withCredentials([usernamePassword(credentialsId: 'CardApi', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) 
+                          {
+                                                                                                                                                                                        
+                                bat ' echo y | \"C:\\Program Files\\PuTTY\\plink.exe\" -batch -ssh '+ USERNAME +'@10.11.226.14 -pw '+ PASSWORD +' C:\\Users\\hein.htet\\Documents\\jenkin\\cmd.bat v1 \"C:\\inetpub\\sms1536\\v1\\*" sms1536'
+
+                                bat 'echo y | \"C:\\Program Files\\PuTTY\\pscp.exe\" -r -P 22 -pw '+PASSWORD+' TelcoSMSApi.Micro.Publish\\* '+USERNAME+'@10.11.226.14:\\inetpub\\sms1536\\v1'
+                          }
+
+
+                        }catch(Exception e)
+                        {   
+							bat ' \"C:\\Program Files\\PuTTY\\plink.exe\" -batch -ssh svc.jenkin@10.11.226.13 -pw wQ%%I2\$dH63vqhoa0 C:\\Users\\hein.htet\\Documents\\jenkin\\cmd_rollback.bat v1 \"C:\\inetpub\\sms1536\\v1" sms1536'
+														
+						
+                            throw e;
+                        }
+                    }
+
+                }
+            }
+
+        }
+		
+		stage('Deploy Sys_DC_13')
+        {
+            steps {
+
+                script {
+                    if(env.BRANCH_NAME == 'release/uat')
+                    {
+                        try
+                        {
+
+                          echo 'Deploying the application.... 10.11.98.13'
+						  
+						  //routeJson('dc')
+
+                          withCredentials([usernamePassword(credentialsId: 'CardApi', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) 
+                          {
+                                                                                                                                                                                        
+                                bat ' echo y | \"C:\\Program Files\\PuTTY\\plink.exe\" -batch -ssh '+ USERNAME +'@10.11.98.13 -pw '+ PASSWORD +' C:\\Users\\pyaethu.aung\\Documents\\jenkin\\cmd.bat v1 \"C:\\inetpub\\sms1536\\v1\\*" sms1536'
+
+                                bat 'echo y | \"C:\\Program Files\\PuTTY\\pscp.exe\" -r -P 22 -pw '+PASSWORD+' TelcoSMSApi.Micro.Publish\\* '+USERNAME+'@10.11.98.13:\\inetpub\\sms1536\\v1'
+                          }
+
+
+                        }catch(Exception e)
+                        {   							
+						
+							bat ' \"C:\\Program Files\\PuTTY\\plink.exe\" -batch -ssh svc.jenkin@10.11.226.13 -pw wQ%%I2\$dH63vqhoa0 C:\\Users\\hein.htet\\Documents\\jenkin\\cmd_rollback.bat v1 \"C:\\inetpub\\sms1536\\v1" sms1536'
+							
+							bat ' \"C:\\Program Files\\PuTTY\\plink.exe\" -batch -ssh svc.jenkin@10.11.226.14 -pw wQ%%I2\$dH63vqhoa0 C:\\Users\\hein.htet\\Documents\\jenkin\\cmd_rollback.bat v1 \"C:\\inetpub\\sms1536\\v1" sms1536'
+						
+                            throw e;
+                        }
+                    }
+
+                }
+            }
+
+        }
+		
+		stage('Deploy Sys_DC_14')
+        {
+            steps {
+
+                script {
+                    if(env.BRANCH_NAME == 'release/uat')
+                    {
+                        try
+                        {
+
+                          echo 'Deploying the application.... 10.11.98.14'
+						  
+						  //routeJson('dc') 
+
+                          withCredentials([usernamePassword(credentialsId: 'CardApi', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) 
+                          {
+                                                                                                                                                                                        
+                                bat ' echo y | \"C:\\Program Files\\PuTTY\\plink.exe\" -batch -ssh '+ USERNAME +'@10.11.98.14 -pw '+ PASSWORD +' C:\\Users\\pyaethu.aung\\Documents\\jenkin\\cmd.bat v1 \"C:\\inetpub\\sms1563\\v1\\*" sms1563'
+
+                                bat 'echo y | \"C:\\Program Files\\PuTTY\\pscp.exe\" -r -P 22 -pw '+PASSWORD+' TelcoSMSApi.Micro.Publish\\* '+USERNAME+'@10.11.98.14:\\inetpub\\sms1563\\v1'
+                          }
+
+
+                        }catch(Exception e)
+                        {   
+							bat ' \"C:\\Program Files\\PuTTY\\plink.exe\" -batch -ssh svc.jenkin@10.11.226.13 -pw wQ%%I2\$dH63vqhoa0 C:\\Users\\hein.htet\\Documents\\jenkin\\cmd_rollback.bat v1 \"C:\\inetpub\\sms1563\\v1" sms1563'
+							
+							bat ' \"C:\\Program Files\\PuTTY\\plink.exe\" -batch -ssh svc.jenkin@10.11.226.14 -pw wQ%%I2\$dH63vqhoa0 C:\\Users\\hein.htet\\Documents\\jenkin\\cmd_rollback.bat v1 \"C:\\inetpub\\sms1563\\v1" sms1563'
+						
+							bat ' \"C:\\Program Files\\PuTTY\\plink.exe\" -batch -ssh svc.jenkin@10.11.98.13 -pw wQ%%I2\$dH63vqhoa0 C:\\Users\\pyaethu.aung\\Documents\\jenkin\\cmd_rollback.bat v1 \"C:\\inetpub\\sms1563\\v1" sms1563'
+						
+                            throw e;
+                        }
+                    }
+
+                }
+            }
+
+        }
+	}
+		
+	
+	post
+    {
+        always
+        {
+            echo "will clean .... "
+            cleanWs()
+            deleteDir()
+        }
+ 
+		success{
+            script {
+                if(env.BRANCH_NAME == 'release/uat')
+                {
+                    echo "========success========"
+                    Sendhangout("${JOB_NAME}-${BUILD_NUMBER} build is ${currentBuild.result} and took ${currentBuild.durationString.replace(' and counting', '')}");
+                }
+            }
+        }
+ 
+        failure{
+            script{
+                if(env.BRANCH_NAME == 'release/uat')
+                {
+                    echo "========faliure========"
+                    Sendhangout("${JOB_NAME}-${BUILD_NUMBER} build is ${currentBuild.result} and took ${currentBuild.durationString.replace(' and counting', '')}");
+                }   
+            }
+            
+ 
+        }
+    }
+}
+
+def Sendhangout(text)
+{    
+    def chatURL = "https://chat.googleapis.com/v1/spaces/AAAAX7cVD_4/messages?key={{AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=LDQ09Y5HLgspYssI4Bh-ulFi29R4WOpgqfB2QxbtMM8%%3D}}"
+    def payload = JsonOutput.toJson([text : text]).replace("\"", "\\\"");
+    
+    bat "\"D:\\Program Files (x86)\\curl\\bin\\curl.exe\" --location --request POST \"${chatURL}\" --header \"Content-Type: application/json \" --data-raw  \"${payload}\"  " 
+    // bat "curl --location --request"
+}
+
+def routeJson(zone)
+{
+    if(zone=='dr')
+    {
+        bat 'del /f C:\\jenkins\\workspace\\{{.cbs144clservice.sys_release_uat\\apigee.cbs144clservice.sys.Publish\\cbscl.config.json}}'
+        bat 'copy C:\\jenkins\\workspace\\{{.cbs144clservice.sys_release_uat\\apigee.cbs144clservice.sys\\dr_cbscl.config.json}} C:\\jenkins\\workspace\\{{.cbs144clservice.sys_release_uat\\apigee.cbs144clservice.sys.Publish\\cbscl.config.json}}'
+    }else 
+    {
+        bat 'del /f C:\\jenkins\\workspace\\{{.cbs144clservice.sys_release_uat\\apigee.cbs144clservice.sys.Publish\\cbscl.config.json}}'
+        bat 'copy C:\\jenkins\\workspace\\{{.cbs144clservice.sys_release_uat\\apigee.cbs144clservice.sys\\dc_cbscl.config.json}} C:\\jenkins\\workspace\\{{.cbs144clservice.sys_release_uat\\apigee.cbs144clservice.sys.Publish\\cbscl.config.json}}'
+    }
+
+}

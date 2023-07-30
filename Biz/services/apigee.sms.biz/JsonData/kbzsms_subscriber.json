@@ -1,0 +1,1715 @@
+{
+	"TS": "2019-09-06T11:01",
+	"data": [
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "GENE",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "GENECC",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "Agent Banking Contact Center"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "GENE",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "GENECC",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "Agent Banking Contact Center"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "GENE",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "GENECC",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "Agent Banking Contact Center"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "GENE",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "GENECC",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "Agent Banking Contact Center"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "GENE",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "GENECC",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "Agent Banking Contact Center"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "AGB",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "HuaweiProdSMSUser",
+			"DEPARTMENT": "KBZPay",
+			"DESCRIPTION": "Agent Banking"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "AGB",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "HuaweiProdSMSUser",
+			"DEPARTMENT": "KBZPay",
+			"DESCRIPTION": "Agent Banking"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "AGB",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "HuaweiProdSMSUser",
+			"DEPARTMENT": "KBZPay",
+			"DESCRIPTION": "Agent Banking"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "AGB",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "HuaweiProdSMSUser",
+			"DEPARTMENT": "KBZPay",
+			"DESCRIPTION": "Agent Banking"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "AGB",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "HuaweiProdSMSUser",
+			"DEPARTMENT": "KBZPay",
+			"DESCRIPTION": "Agent Banking"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "BAG",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "bag",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "Bill Aggregator"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "BAG",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "bag",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "Bill Aggregator"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "BAG",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "bag",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "Bill Aggregator"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "BAG",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "bag",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "Bill Aggregator"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "BAG",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "bag",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "Bill Aggregator"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "IMB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "imb",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "iBanking"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "IMB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "imb",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "iBanking"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "IMB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "imb",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "iBanking"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "IMB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "imb",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "iBanking"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "IMB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "imb",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "iBanking"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "KBZ0nBo",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "Digital Onboarding"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "KBZ0nBo",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "Digital Onboarding"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "KBZ0nBo",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "Digital Onboarding"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "KBZ0nBo",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "Digital Onboarding"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "KBZ0nBo",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "Digital Onboarding"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "RMT",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Dometic_Remit",
+			"DESCRIPTION": "Remittance"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "RMT",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Dometic_Remit",
+			"DESCRIPTION": "Remittance"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "RMT",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Dometic_Remit",
+			"DESCRIPTION": "Remittance"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "RMT",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Dometic_Remit",
+			"DESCRIPTION": "Remittance"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "RMT",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Dometic_Remit",
+			"DESCRIPTION": "Remittance"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "ABCC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "WolvesCloudProdSMSUser",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "Agent Banking Contact Center"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "ABCC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "WolvesCloudProdSMSUser",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "Agent Banking Contact Center"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "ABCC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "WolvesCloudProdSMSUser",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "Agent Banking Contact Center"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "ABCC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "WolvesCloudProdSMSUser",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "Agent Banking Contact Center"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "ABCC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "WolvesCloudProdSMSUser",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "Agent Banking Contact Center"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "LND",
+			"SENDERNAME": "KBZ Academy",
+			"SERVICE": "MGATE",
+			"API_USER": "LND",
+			"DEPARTMENT": "KBZ_Learning",
+			"DESCRIPTION": "KBZ Learning & Development"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "LND",
+			"SENDERNAME": "KBZ Academy",
+			"SERVICE": "MGATE",
+			"API_USER": "LND",
+			"DEPARTMENT": "KBZ_Learning",
+			"DESCRIPTION": "KBZ Learning & Development"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "LND",
+			"SENDERNAME": "KBZ Academy",
+			"SERVICE": "MGATE",
+			"API_USER": "LND",
+			"DEPARTMENT": "KBZ_Learning",
+			"DESCRIPTION": "KBZ Learning & Development"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "LND",
+			"SENDERNAME": "KBZ Academy",
+			"SERVICE": "MGATE",
+			"API_USER": "LND",
+			"DEPARTMENT": "KBZ_Learning",
+			"DESCRIPTION": "KBZ Learning & Development"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "LND",
+			"SENDERNAME": "KBZ Academy",
+			"SERVICE": "MGATE",
+			"API_USER": "LND",
+			"DEPARTMENT": "KBZ_Learning",
+			"DESCRIPTION": "KBZ Learning & Development"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "NOC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "NOC",
+			"DEPARTMENT": "KBZ_Tech",
+			"DESCRIPTION": "NOC"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "NOC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "NOC",
+			"DEPARTMENT": "KBZ_Tech",
+			"DESCRIPTION": "NOC"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "NOC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "NOC",
+			"DEPARTMENT": "KBZ_Tech",
+			"DESCRIPTION": "NOC"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "NOC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "NOC",
+			"DEPARTMENT": "KBZ_Tech",
+			"DESCRIPTION": "NOC"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "NOC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "NOC",
+			"DEPARTMENT": "KBZ_Tech",
+			"DESCRIPTION": "NOC"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "FRMT",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Foreign_Remit",
+			"DESCRIPTION": "Foreign Remittance"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "FRMT",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Foreign_Remit",
+			"DESCRIPTION": "Foreign Remittance"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "FRMT",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Foreign_Remit",
+			"DESCRIPTION": "Foreign Remittance"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "FRMT",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Foreign_Remit",
+			"DESCRIPTION": "Foreign Remittance"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "FRMT",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Foreign_Remit",
+			"DESCRIPTION": "Foreign Remittance"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO office, Deposit"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO office, Deposit"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO office, Deposit"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO office, Deposit"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO office, Deposit"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "HRDB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "HRDB",
+			"DEPARTMENT": "KBZ_HRBP",
+			"DESCRIPTION": "KBZ HR"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "HRDB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "HRDB",
+			"DEPARTMENT": "KBZ_HRBP",
+			"DESCRIPTION": "KBZ HR"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "HRDB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "HRDB",
+			"DEPARTMENT": "KBZ_HRBP",
+			"DESCRIPTION": "KBZ HR"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "HRDB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "HRDB",
+			"DEPARTMENT": "KBZ_HRBP",
+			"DESCRIPTION": "KBZ HR"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "HRDB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "HRDB",
+			"DEPARTMENT": "KBZ_HRBP",
+			"DESCRIPTION": "KBZ HR"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "HRDB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "HRIS",
+			"DEPARTMENT": "KBZ_HRBP",
+			"DESCRIPTION": "KBZ HR"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "HRDB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "HRIS",
+			"DEPARTMENT": "KBZ_HRBP",
+			"DESCRIPTION": "KBZ HR"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "HRDB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "HRIS",
+			"DEPARTMENT": "KBZ_HRBP",
+			"DESCRIPTION": "KBZ HR"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "HRDB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "HRIS",
+			"DEPARTMENT": "KBZ_HRBP",
+			"DESCRIPTION": "KBZ HR"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "HRDB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "HRIS",
+			"DEPARTMENT": "KBZ_HRBP",
+			"DESCRIPTION": "KBZ HR"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "SAM",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_SAM",
+			"DESCRIPTION": "SAM"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "SAM",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_SAM",
+			"DESCRIPTION": "SAM"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "SAM",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_SAM",
+			"DESCRIPTION": "SAM"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "SAM",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_SAM",
+			"DESCRIPTION": "SAM"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "SAM",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_SAM",
+			"DESCRIPTION": "SAM"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "CASH",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Cash",
+			"DESCRIPTION": "SmartCash"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "CASH",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Cash",
+			"DESCRIPTION": "SmartCash"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "CASH",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Cash",
+			"DESCRIPTION": "SmartCash"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "CASH",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Cash",
+			"DESCRIPTION": "SmartCash"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "CASH",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Cash",
+			"DESCRIPTION": "SmartCash"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "SECL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Secured_Loan",
+			"DESCRIPTION": "Secured Loan"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "SECL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Secured_Loan",
+			"DESCRIPTION": "Secured Loan"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "SECL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Secured_Loan",
+			"DESCRIPTION": "Secured Loan"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "SECL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Secured_Loan",
+			"DESCRIPTION": "Secured Loan"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "SECL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Secured_Loan",
+			"DESCRIPTION": "Secured Loan"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "PAYR",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Payroll",
+			"DESCRIPTION": "Payroll"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "PAYR",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Payroll",
+			"DESCRIPTION": "Payroll"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "PAYR",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Payroll",
+			"DESCRIPTION": "Payroll"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "PAYR",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Payroll",
+			"DESCRIPTION": "Payroll"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "PAYR",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Payroll",
+			"DESCRIPTION": "Payroll"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "AWCL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Quick Access Loan"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "AWCL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Quick Access Loan"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "AWCL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Quick Access Loan"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "AWCL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Quick Access Loan"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "AWCL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Quick Access Loan"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "GEBK",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "GENECC",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "iBanking Contact Center"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "GEBK",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "GENECC",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "iBanking Contact Center"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "GEBK",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "GENECC",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "iBanking Contact Center"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "GEBK",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "GENECC",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "iBanking Contact Center"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "GEBK",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "GENECC",
+			"DEPARTMENT": "KBZ_Virtual_Branch",
+			"DESCRIPTION": "iBanking Contact Center"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "ULOAN",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Unsecured Loan"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "ULOAN",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Unsecured Loan"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "ULOAN",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Unsecured Loan"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "ULOAN",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Unsecured Loan"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "ULOAN",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "FLEXCUBE_prod",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Unsecured Loan"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "SME",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "smeloan",
+			"DEPARTMENT": "KBZ_Smart_SME",
+			"DESCRIPTION": "Smart SME Banking VC"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "SME",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "smeloan",
+			"DEPARTMENT": "KBZ_Smart_SME",
+			"DESCRIPTION": "Smart SME Banking VC"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "SME",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "smeloan",
+			"DEPARTMENT": "KBZ_Smart_SME",
+			"DESCRIPTION": "Smart SME Banking VC"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "SME",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "smeloan",
+			"DEPARTMENT": "KBZ_Smart_SME",
+			"DESCRIPTION": "Smart SME Banking VC"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "SME",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "smeloan",
+			"DEPARTMENT": "KBZ_Smart_SME",
+			"DESCRIPTION": "Smart SME Banking VC"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "ESTO",
+			"SENDERNAME": "SUNNYeSTORE",
+			"SERVICE": "MGATE",
+			"API_USER": "ESTORE",
+			"DEPARTMENT": "KBX_estore",
+			"DESCRIPTION": "KBX estore"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "ESTO",
+			"SENDERNAME": "SUNNYeSTORE",
+			"SERVICE": "MGATE",
+			"API_USER": "ESTORE",
+			"DEPARTMENT": "KBX_estore",
+			"DESCRIPTION": "KBX estore"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "ESTO",
+			"SENDERNAME": "SUNNYeSTORE",
+			"SERVICE": "MGATE",
+			"API_USER": "ESTORE",
+			"DEPARTMENT": "KBX_estore",
+			"DESCRIPTION": "KBX estore"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "ESTO",
+			"SENDERNAME": "SUNNYeSTORE",
+			"SERVICE": "MGATE",
+			"API_USER": "ESTORE",
+			"DEPARTMENT": "KBX_estore",
+			"DESCRIPTION": "KBX estore"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "ESTO",
+			"SENDERNAME": "SUNNYeSTORE",
+			"SERVICE": "MGATE",
+			"API_USER": "ESTORE",
+			"DEPARTMENT": "KBX_estore",
+			"DESCRIPTION": "KBX estore"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "SECL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "homeloan",
+			"DEPARTMENT": "KBZ_Secured_Loan",
+			"DESCRIPTION": "Secured Loan"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "SECL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "homeloan",
+			"DEPARTMENT": "KBZ_Secured_Loan",
+			"DESCRIPTION": "Secured Loan"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "SECL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "homeloan",
+			"DEPARTMENT": "KBZ_Secured_Loan",
+			"DESCRIPTION": "Secured Loan"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "SECL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "homeloan",
+			"DEPARTMENT": "KBZ_Secured_Loan",
+			"DESCRIPTION": "Secured Loan"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "SECL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "homeloan",
+			"DEPARTMENT": "KBZ_Secured_Loan",
+			"DESCRIPTION": "Secured Loan"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "CARDHOLDER",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO office, Deposit"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "CARDHOLDER",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO office, Deposit"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "CARDHOLDER",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO office, Deposit"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "CARDHOLDER",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO office, Deposit"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "CARDHOLDER",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO office, Deposit"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "UCRE",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "CARDHOLDER",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Unsecured Loan"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "UCRE",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "CARDHOLDER",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Unsecured Loan"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "UCRE",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "CARDHOLDER",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Unsecured Loan"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "UCRE",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "CARDHOLDER",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Unsecured Loan"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "UCRE",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "CARDHOLDER",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Unsecured Loan"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "ECOMCARD",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO,Deposit Wealth"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "ECOMCARD",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO,Deposit Wealth"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "ECOMCARD",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO,Deposit Wealth"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "ECOMCARD",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO,Deposit Wealth"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "DEPW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "ECOMCARD",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "CEO,Deposit Wealth"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "PADV",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "EARNEDWAGESACCESS",
+			"DEPARTMENT": "KBZ_Payroll",
+			"DESCRIPTION": "Smart Payroll Value Center"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "PADV",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "EARNEDWAGESACCESS",
+			"DEPARTMENT": "KBZ_Payroll",
+			"DESCRIPTION": "Smart Payroll Value Center"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "PADV",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "EARNEDWAGESACCESS",
+			"DEPARTMENT": "KBZ_Payroll",
+			"DESCRIPTION": "Smart Payroll Value Center"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "PADV",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "EARNEDWAGESACCESS",
+			"DEPARTMENT": "KBZ_Payroll",
+			"DESCRIPTION": "Smart Payroll Value Center"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "PADV",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "EARNEDWAGESACCESS",
+			"DEPARTMENT": "KBZ_Payroll",
+			"DESCRIPTION": "Smart Payroll Value Center"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "AOFH",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "Account Open from Home"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "AOFH",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "Account Open from Home"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "AOFH",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "Account Open from Home"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "AOFH",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "Account Open from Home"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "AOFH",
+			"DEPARTMENT": "KBZ_TBVC",
+			"DESCRIPTION": "Account Open from Home"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "CASH",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "meshbanking",
+			"DEPARTMENT": "KBZ_CASH",
+			"DESCRIPTION": "Meshbanking"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "CASH",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "meshbanking",
+			"DEPARTMENT": "KBZ_CASH",
+			"DESCRIPTION": "Meshbanking"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "CASH",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "meshbanking",
+			"DEPARTMENT": "KBZ_CASH",
+			"DESCRIPTION": "Meshbanking"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "CASH",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "meshbanking",
+			"DEPARTMENT": "KBZ_CASH",
+			"DESCRIPTION": "Meshbanking"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "CASH",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "meshbanking",
+			"DEPARTMENT": "KBZ_CASH",
+			"DESCRIPTION": "Meshbanking"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "DPS",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "KBX_DPS",
+			"DEPARTMENT": "KBX_DPS",
+			"DESCRIPTION": "DPS Payroll"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "DPS",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "KBX_DPS",
+			"DEPARTMENT": "KBX_DPS",
+			"DESCRIPTION": "DPS Payroll"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "DPS",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "KBX_DPS",
+			"DEPARTMENT": "KBX_DPS",
+			"DESCRIPTION": "DPS Payroll"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "DPS",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "KBX_DPS",
+			"DEPARTMENT": "KBX_DPS",
+			"DESCRIPTION": "DPS Payroll"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "DPS",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "KBX_DPS",
+			"DEPARTMENT": "KBX_DPS",
+			"DESCRIPTION": "DPS Payroll"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "MYM",
+			"SENDERNAME": "My-Medicine",
+			"SERVICE": "MGATE",
+			"API_USER": "kbxmedicine",
+			"DEPARTMENT": "KBX MY-MEDICINE (TRANSACTIONAL)",
+			"DESCRIPTION": "KBX MY-MEDICINE"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "MYM",
+			"SENDERNAME": "My-Medicine",
+			"SERVICE": "MGATE",
+			"API_USER": "kbxmedicine",
+			"DEPARTMENT": "KBX MY-MEDICINE (TRANSACTIONAL)",
+			"DESCRIPTION": "KBX MY-MEDICINE"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "MYM",
+			"SENDERNAME": "My-Medicine",
+			"SERVICE": "MGATE",
+			"API_USER": "kbxmedicine",
+			"DEPARTMENT": "KBX MY-MEDICINE (TRANSACTIONAL)",
+			"DESCRIPTION": "KBX MY-MEDICINE"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "MYM",
+			"SENDERNAME": "My-Medicine",
+			"SERVICE": "MGATE",
+			"API_USER": "kbxmedicine",
+			"DEPARTMENT": "KBX MY-MEDICINE (TRANSACTIONAL)",
+			"DESCRIPTION": "KBX MY-MEDICINE"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "MYM",
+			"SENDERNAME": "My-Medicine",
+			"SERVICE": "MGATE",
+			"API_USER": "kbxmedicine",
+			"DEPARTMENT": "KBX MY-MEDICINE (TRANSACTIONAL)",
+			"DESCRIPTION": "KBX MY-MEDICINE"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "APSC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "APSC",
+			"DEPARTMENT": "KBZ_Trade_Finance",
+			"DESCRIPTION": "Smart Trade Finance"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "APSC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "APSC",
+			"DEPARTMENT": "KBZ_Trade_Finance",
+			"DESCRIPTION": "Smart Trade Finance"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "APSC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "APSC",
+			"DEPARTMENT": "KBZ_Trade_Finance",
+			"DESCRIPTION": "Smart Trade Finance"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "APSC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "APSC",
+			"DEPARTMENT": "KBZ_Trade_Finance",
+			"DESCRIPTION": "Smart Trade Finance"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "APSC",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "APSC",
+			"DEPARTMENT": "KBZ_Trade_Finance",
+			"DESCRIPTION": "Smart Trade Finance"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "AWCL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "NEOAWCL",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Quick Access Loan"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "AWCL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "NEOAWCL",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Quick Access Loan"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "AWCL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "NEOAWCL",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Quick Access Loan"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "AWCL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "NEOAWCL",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Quick Access Loan"
+		},
+		{
+			"TELCO_CODE": "MEC",
+			"CLIENTCODE": "AWCL",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "NEOAWCL",
+			"DEPARTMENT": "KBZ_Credit_Card",
+			"DESCRIPTION": "Quick Access Loan"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "SELFONBO",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "Self Onboarding"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "SELFONBO",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "Self Onboarding"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "SELFONBO",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "Self Onboarding"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "SELFONBO",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "Self Onboarding"
+		},
+		{
+			"TELCO_CODE": "MECTEL",
+			"CLIENTCODE": "ONB",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "SELFONBO",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "Self Onboarding"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "DIGI_GOLD",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "DGCode",
+			"DEPARTMENT": "KBZ_Structured_Finance",
+			"DESCRIPTION": "Digital Gold for Lcode"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "DIGI_GOLD",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "DGCode",
+			"DEPARTMENT": "KBZ_Structured_Finance",
+			"DESCRIPTION": "Digital Gold for Lcode"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "DIGI_GOLD",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "DGCode",
+			"DEPARTMENT": "KBZ_Structured_Finance",
+			"DESCRIPTION": "Digital Gold for Lcode"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "DIGI_GOLD",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "DGCode",
+			"DEPARTMENT": "KBZ_Structured_Finance",
+			"DESCRIPTION": "Digital Gold for Lcode"
+		},
+		{
+			"TELCO_CODE": "MECTEL",
+			"CLIENTCODE": "DIGI_GOLD",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "DGCode",
+			"DEPARTMENT": "KBZ_Structured_Finance",
+			"DESCRIPTION": "Digital Gold for Lcode"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "H2HSP",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "H2hNoti",
+			"DEPARTMENT": "KBZ_CTBVC",
+			"DESCRIPTION": "H2H Supplier Payment"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "H2HSP",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "H2hNoti",
+			"DEPARTMENT": "KBZ_CTBVC",
+			"DESCRIPTION": "H2H Supplier Payment"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "H2HSP",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "H2hNoti",
+			"DEPARTMENT": "KBZ_CTBVC",
+			"DESCRIPTION": "H2H Supplier Payment"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "H2HSP",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "H2hNoti",
+			"DEPARTMENT": "KBZ_CTBVC",
+			"DESCRIPTION": "H2H Supplier Payment"
+		},
+		{
+			"TELCO_CODE": "MECTEL",
+			"CLIENTCODE": "H2HSP",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "H2hNoti",
+			"DEPARTMENT": "KBZ_CTBVC",
+			"DESCRIPTION": "H2H Supplier Payment"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "COCW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "ATMBooking",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "ATM Booking"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "COCW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "ATMBooking",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "ATM Booking"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "COCW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "ATMBooking",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "ATM Booking"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "COCW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "ATMBooking",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "ATM Booking"
+		},
+		{
+			"TELCO_CODE": "MECTEL",
+			"CLIENTCODE": "COCW",
+			"SENDERNAME": "KBZ Bank",
+			"SERVICE": "MGATE",
+			"API_USER": "ATMBooking",
+			"DEPARTMENT": "KBZ_Deposit_Wealth",
+			"DESCRIPTION": "ATM Booking"
+		},
+		{
+			"TELCO_CODE": "OOREDOO",
+			"CLIENTCODE": "AGB",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "ATMBooking",
+			"DEPARTMENT": "KBZ_Tech",
+			"DESCRIPTION": "ATM Booking"
+		},
+		{
+			"TELCO_CODE": "MYTEL",
+			"CLIENTCODE": "AGB",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "ATMBooking",
+			"DEPARTMENT": "KBZ_Tech",
+			"DESCRIPTION": "ATM Booking"
+		},
+		{
+			"TELCO_CODE": "MPT",
+			"CLIENTCODE": "AGB",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "ATMBooking",
+			"DEPARTMENT": "KBZ_Tech",
+			"DESCRIPTION": "ATM Booking"
+		},
+		{
+			"TELCO_CODE": "TELENOR",
+			"CLIENTCODE": "AGB",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "ATMBooking",
+			"DEPARTMENT": "KBZ_Tech",
+			"DESCRIPTION": "ATM Booking"
+		},
+		{
+			"TELCO_CODE": "MECTEL",
+			"CLIENTCODE": "AGB",
+			"SENDERNAME": "KBZPay",
+			"SERVICE": "MGATE",
+			"API_USER": "ATMBooking",
+			"DEPARTMENT": "KBZ_Tech",
+			"DESCRIPTION": "ATM Booking"
+		}
+	]
+}

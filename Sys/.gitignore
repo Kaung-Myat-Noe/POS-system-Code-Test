@@ -1,0 +1,8 @@
+apigee.sms.sys/bin/Debug/net6.0/apigee.sms.sys.dll
+apigee.sms.sys/obj/*
+*.suo
+apigee.sms.sys/Properties/PublishProfiles/*
+/.vs
+/apigee.sms.sys/obj
+/apigee.sms.sys/.vs
+/apigee.sms.sys/bin

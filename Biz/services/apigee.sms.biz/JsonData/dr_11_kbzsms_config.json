@@ -1,0 +1,271 @@
+{
+	"ROUTES": {
+		"Business": {
+			"TIMEOUT": 30,
+			"ROUTE": [
+				{
+					"CHANNEL": "AGB",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "N",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "INFI",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "N",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "DIGI_GOLD",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "N",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "IMB",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "ONB",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "BAG",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "NPS",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "DEV",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "RMT",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "ABCC",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "LND",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "NOC",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "SNOC",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "FRMT",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "DEPW",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "SAM",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "SAPM",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "SECL",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "PAYR",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "CASH",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "AWCL",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "PLOAN",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "SFA",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "HRDB",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "ESTO",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "GENE",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "GEBK",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "DEPW",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "UCRE",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "MMU",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "PADV",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "DPS",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "MYM",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "APSC",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "Y",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "SME",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "N",
+					"ROUTE_TO_ENV": "UAT"
+				},
+				{
+					"CHANNEL": "FCUB",
+					"SYSURL": "http://api-sys-uat-dr.kbzbank.com:1536/v1/api/smstran/",
+					"CHECKVALIDATE": "N",
+					"ROUTE_TO_ENV": "UAT"
+				}
+			]
+		}
+	},
+	"LOG": {
+		"Business": {
+			"TEXTLOG": "Y",
+			"APILOG": "Y",
+			"TEXT_URL": "D:\\Logs\\Business\\SMS\\Log",
+			"API_URL": "http://api-sys-uat-dr.kbzbank.com/KBZLOG/api/kbzlogger/"
+		},
+		"System": {
+			"TEXTLOG": "Y",
+			"APILOG": "Y",
+			"TEXT_URL": "D:\\Logs\\System\\SMS\\Log",
+			"API_URL": "http://api-sys-uat-dr.kbzbank.com/KBZLOG/api/kbzlogger/"
+		}
+	},
+	"SMS_SERVICE": {
+		"MGATE": {
+			"ENVIRONMENT": [
+				{
+					"ENV": "UAT",
+					"SERVICE_URL": "http://10.11.94.46:8200/sms/",
+					"BULKSMS_SERVICEURL": "http://10.11.94.46:8400/sms/"
+				},
+				{
+					"ENV": "PROD",
+					"SERVICE_URL": "http://sms-dr.kbzbank.com:8200/sms/",
+					"BULKSMS_SERVICEURL": "http://sms-dr.kbzbank.com:8400/sms/"
+				}
+			],
+			"REQ_FORMAT_VALUE": "send?message_id=ClientCode,TrxnRefNum&phone=SubscriberNum&sender=SENDERNAME&text=Message&username=ClientCode&department=DEPARTMENT&message_priority=Msg_type",
+			"HTTP_METHOD": "GET",
+			"TIMEOUT": 30
+		}
+	},
+	"PREFIX": {
+		"MPT": "0950,95950,0951,95951,0952,95952,0953,95953,0954,95954,0955,95955,0956,95956,0941,95941,0943,95943,0944,95944,0945,95945,0920,95920,0921,95921,0922,95922,0923,95923,0924,95924,0925,95925,0926,95926,0942,95942,0940,95940,0973,95973,0947,95947,0949,95949,0957,95957,0958,95958,0989,95989,0986,95986,0988,95988,0959,95959,0985,95985,0931,95931,0932,95932,95933,0933,95934,0934,0935,95935,95983,0983,95936,0936,0999,95999,0991,95991,0992,95992,0993,95993,0994,95994,0930,95930,0980,95980,95928,0928,95948,0948,95987,0987,0984,95984,0946,95946,0981,95981,0929,95929,0982,95982,0937,95937,0939,95939,0927,95927",
+		"TELENOR": "0977,95977,0978,95978,0979,95979,0976,95976,0975,95975,0974,95974,0973,95973,0972,95972,0970,95970,0971,95971",
+		"OOREDOO": "0995,95995,0996,95996,0997,95997,0998,95998,0994,95994,0993,09993,0992,95992,0991,95991,0990,95990",
+		"MYTEL": "0969,95969,0968,95968,0967,95967,0966,95966,0965,95965,0964,95964,0963,95963,0962,95962,0961,95961,0960,95960"
+	},
+	"SETTING": {
+		"FILTER": "09,959,+959",
+		"CHECKDUPLICATE": "Y",
+		"BUS_IP": "10.11.226.11",
+		"BUS_SERVER": "DR",
+		"TOTAL_MOBILE": 1000
+	}
+}
